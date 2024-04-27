@@ -1,5 +1,5 @@
 <center>
-<img src="https://drive.google.com/file/d/1xxUmhD3UCuwTIyvjTLMGEbBXg_O0k0YB/view?usp=sharing">
+<img src="blob:https://www.freepik.com/3d2a2702-f4cd-48b4-88e3-68067e04165d">
 </center>
 
 
