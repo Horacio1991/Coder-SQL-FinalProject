@@ -93,11 +93,31 @@ Es una aplicación diseñada para facilitar y optimizar el proceso de envío y e
   - `DESCRIPCION`: Descripción detallada del producto.
   - `PESO`: Peso del producto (decimal con precisión de 10,2).
   - `PRECIO`: Precio del producto (decimal con precisión de 10,2).
-  - 
+
+## Estructura e ingesta de datos
+- Se realiza mediante comandos insert directamente en el script
+
 ## Objetos de la base de datos
 
 ### Vista: vista_paquetes_por_cliente
 Esta vista muestra información detallada sobre los paquetes enviados por cliente, incluyendo el código del cliente, nombre, apellido, código del paquete, fecha de envío, estado del paquete, así como los productos asociados a cada paquete con su nombre, descripción, peso y precio.
+
+###Coumnas:
+- COD_CLIENTE
+- NOMBRE
+- APELLIDO
+- COD_PAQUETE
+- FECHA_ENVIO
+- ESTADO
+- PRODUCTO
+- DESCRIPCION
+- PESO
+- PRECIO
+
+###Ejemplo de consulta:
+```sql
+SELECT * FROM vista_paquetes_por_cliente;
+```
 
 ### Vista: vista_empleados_por_sucursal
 Esta vista proporciona información sobre los empleados asignados a cada sucursal, mostrando el código de la sucursal, dirección, así como el código, nombre, apellido, domicilio y teléfonos de cada empleado.
