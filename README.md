@@ -1,5 +1,5 @@
 <center>
-<img src="https://i.ibb.co/vHKNzpC/pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1.jpg" alt="pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1" border="0"></a>
+<img src="https://i.ibb.co/vHKNzpC/pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1.jpg" alt="pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1">
 </center>
 
 
