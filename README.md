@@ -1,5 +1,5 @@
 <center>
-<img src="[https://i.ibb.co/vHKNzpC/pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1.jpg" alt="pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/pikaso_texttoimage_adorable-cartoon-style-a-van-delivering-a-package-%20(2).jpeg?raw=true)"style="max-width: 100%";>
+<img src="https://github.com/Horacio1991/SQL_Coderhouse/blob/main/pikaso_texttoimage_adorable-cartoon-style-a-van-delivering-a-package-%20(2).jpeg?raw=true">
 </center>
 
 
