@@ -13,33 +13,6 @@
 @Docente: Anderson Michel TORRES
 
 
-
----
-
-### **Consignas:**
-- La base de datos debe contener al menos:
-    * ~ 15 tablas, entre las cuales debe haber al menos 1 tabla de hechos,  2 tablas transaccionales.
-    * ~ 5 vistas.
-    * ~ 2 stored procedure.
-    * ~ 2  trigger.
-    * ~ 2 funciones
-    
-- El documento debe contener:
-    - Introducción
-    - Objetivo
-    - Situación problemática
-    - Modelo de negocio
-    - Diagrama de entidad relació
-    - Listado de tablas con descripción de estructura (columna,descripción, tipo de datos, tipo de clave)
-    - Scripts de creación de cada objeto de la base de datos
-    - Scripts de inserción de datos
-    - Informes generados en base a la información de la base
-    - Herramientas y tecnologías usadas
-
-
-
----
-
 # ENVIOS CODER
 
 Es una aplicación diseñada para facilitar y optimizar el proceso de envío y entrega de paquetes a través de servicios de mensajería y correos. Su objetivo principal es gestionar de manera eficiente todas las etapas del proceso de envío, desde la recepción del paquete hasta su entrega final al destinatario.
@@ -57,7 +30,7 @@ Es una aplicación diseñada para facilitar y optimizar el proceso de envío y e
 - **Generación de Informes y Análisis**: Ofrece herramientas para generar informes y análisis sobre diferentes aspectos del negocio, como el rendimiento de los empleados, los costos de envío, la satisfacción del cliente y otros indicadores clave de desempeño.
 
 ## Diagrama entidad relacion (DER)
-# [DER](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg)
+# <img src="https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg">)
 
 ## Listado de tablas y descripcion
 
