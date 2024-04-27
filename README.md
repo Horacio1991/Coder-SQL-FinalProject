@@ -145,4 +145,4 @@ Se puede generar con un comando en el archivo __make bakcup__ que me permite eje
 **Pasos para arrancar el proyecto**
 - En la terminal escribir:
      - `make` si te da un error de no conexión al socket, volver a correr el comando __make_
-     - `make` access-db para accceder a la base de datos
+     - `make access-db` para accceder a la base de datos
