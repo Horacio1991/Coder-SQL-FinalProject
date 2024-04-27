@@ -4,13 +4,13 @@
 
 
 # <center>Entrega de proyecto final</center>
-@Nombre: Horacio Ortiz
+- Nombre: Horacio Ortiz
 
-@ Comision: 53175
+- Comision: 53175
 
-@Tutor: Nancy Elizabeth Villena Reines
+- Tutor: Nancy Elizabeth Villena Reines
 
-@Docente: Anderson Michel TORRES
+- Docente: Anderson Michel TORRES
 
 
 # ENVIOS CODER
