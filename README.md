@@ -99,6 +99,8 @@ Es una aplicación diseñada para facilitar y optimizar el proceso de envío y e
 
 ## Objetos de la base de datos
 
+### Vistas
+
 ### Vista: vista_paquetes_por_cliente
 Esta vista muestra información detallada sobre los paquetes enviados por cliente, incluyendo el código del cliente, nombre, apellido, código del paquete, fecha de envío, estado del paquete, así como los productos asociados a cada paquete con su nombre, descripción, peso y precio.
 
@@ -122,23 +124,117 @@ SELECT * FROM vista_paquetes_por_cliente;
 ### Vista: vista_empleados_por_sucursal
 Esta vista proporciona información sobre los empleados asignados a cada sucursal, mostrando el código de la sucursal, dirección, así como el código, nombre, apellido, domicilio y teléfonos de cada empleado.
 
+### Columnas:
+- COD_SUCURSAL
+- DIRECCION
+- COD_EMPLEADO
+- NOMBRE
+- APELLIDO
+- DOMICILIO
+- TELEFONOS
+
+### Ejemplo de consulta:
+```sql
+SELECT * FROM vista_empleados_por_sucursal;
+```
+
 ### Vista: vista_envios_por_fecha
 Esta vista muestra los detalles de los envíos realizados dentro de un rango de fechas específico. Incluye el código del paquete, fecha de envío, código del cliente y empleado, nombre y apellido del cliente y empleado, así como información detallada sobre los productos enviados, como nombre, descripción, peso y precio.
+
+### Columnas:
+- COD_PAQUETE
+- FECHA_ENVIO
+- COD_CLIENTE
+- NOMBRE_CLIENTE
+- APELLIDO_CLIENTE
+- COD_EMPLEADO
+- NOMBRE_EMPLEADO
+- APELLIDO_EMPLEADO
+- PRODUCTO
+- DESCRIPCION
+- PESO
+- PRECIO
+
+### Ejemplo de consulta:
+```sql
+SELECT * FROM vista_envios_por_fecha;
+```
+
+### Funciones
 
 ### Función: calcular_total_envios_por_cliente
 Esta función calcula el total de envíos realizados por un cliente específico. Recibe como parámetro el código del cliente y devuelve el número total de envíos realizados por ese cliente.
 
+### Parámetros:
+- cod_cliente: El id del cliente
+
+### Retorno:
+- INT: un entero con la cantidad de envíos
+
+### Ejemplo de uso
+```sql
+SELECT calcular_total_envios_por_cliente(1) AS total_envios;
+```
 ### Función: obtener_productos_por_paquete
 Esta función devuelve una lista de productos asociados a un paquete específico. Toma como entrada el código del paquete y devuelve una cadena de caracteres que enumera los nombres de los productos separados por comas.
+
+### Parámetros: 
+- cod_paquete: recibe el id del paquete
+
+### Retorno:
+- VARCHAR: un texto con los productos que forman parte del paquete
+
+### Ejemplo de uso
+```sql
+SELECT obtener_productos_por_paquete(1) AS productos_del_paquete;
+```
 
 ### Función: calcular_peso_total_paquete
 Esta función calcula el peso total de un paquete específico. Recibe como parámetro el código del paquete y devuelve una cadena de caracteres que representa el peso total seguido de las unidades "KG".
 
+### Parámetros: 
+- cod_paquete: recibe el id del paquete
+
+### Retorno:
+- VARCHAR: un texto que dice el peso y la palabra "KG"
+
+### Ejemplo de uso
+```sql
+SELECT obtener_productos_por_paquete(1) AS productos_del_paquete;
+```
+
+### Procedimientos Almacenados
+
 ### Procedimiento almacenado: sp_actualizar_estado_paquete
 Este procedimiento almacenado actualiza el estado de un paquete específico. Toma como entrada el código del paquete y el nuevo estado y actualiza el estado del paquete en la tabla correspondiente.
 
+### Parámetros: 
+- cod_paquete: recibe el id del paquete
+- estado: es un boolean 
+
+### Retorno:
+- El codigo de paquete, el cliente, el empleado, la fecha y si el estado es entregado (1) o no entregado (0)
+
+### Ejemplo de uso
+```sql
+CALL sp_actualizar_estado_paquete(1, TRUE);
+SELECT * FROM PAQUETE WHERE COD_PAQUETE = 1;
+```
+
 ### Procedimiento almacenado: sp_obtener_envios_por_fecha
 Este procedimiento almacenado devuelve detalles sobre los envíos realizados dentro de un rango de fechas específico. Toma como parámetros las fechas de inicio y fin y devuelve información detallada sobre los paquetes enviados dentro de ese período.
+
+### Parámetros: 
+- fecha_inicio: un dato tipo DATE 
+- fecha_fin: un dato tipo DATE
+
+### Retorno:
+- Devuelve todos los envios realizados dentro del rango especificado entre fecha_inicio y fecha_fin
+
+### Ejemplo de uso
+```sql
+CALL sp_obtener_envios_por_fecha('2024-01-01', '2024-03-31');
+```
 
 ### Trigger: tr_estado_paquete
 Este trigger se activa después de actualizar el estado de un paquete y registra el cambio en una tabla de registro. Registra el código del paquete, la fecha del cambio, el estado anterior y el estado actual del paquete en la tabla `LOG_CAMBIOS_PAQUETE`.
