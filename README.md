@@ -1,5 +1,5 @@
 <center>
-<img src="blob:https://www.freepik.com/3d2a2702-f4cd-48b4-88e3-68067e04165d">
+<img src="blob:https://www.freepik.com/3d2a2702-f4cd-48b4-88e3-68067e04165d" alt="Texto alternativo" style="max-width: 100%;">
 </center>
 
 
