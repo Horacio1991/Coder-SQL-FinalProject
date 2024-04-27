@@ -30,7 +30,7 @@ Es una aplicación diseñada para facilitar y optimizar el proceso de envío y e
 - **Generación de Informes y Análisis**: Ofrece herramientas para generar informes y análisis sobre diferentes aspectos del negocio, como el rendimiento de los empleados, los costos de envío, la satisfacción del cliente y otros indicadores clave de desempeño.
 
 ## Diagrama entidad relacion (DER)
-# <img src="https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg">)
+# <img src="https://github.com/Horacio1991/SQL_Coderhouse/blob/main/DER%20Coder.jpg">
 
 ## Listado de tablas y descripcion
 
