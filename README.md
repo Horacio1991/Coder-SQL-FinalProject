@@ -102,7 +102,7 @@ Es una aplicación diseñada para facilitar y optimizar el proceso de envío y e
 ### Vista: vista_paquetes_por_cliente
 Esta vista muestra información detallada sobre los paquetes enviados por cliente, incluyendo el código del cliente, nombre, apellido, código del paquete, fecha de envío, estado del paquete, así como los productos asociados a cada paquete con su nombre, descripción, peso y precio.
 
-###Coumnas:
+### Columnas:
 - COD_CLIENTE
 - NOMBRE
 - APELLIDO
@@ -114,7 +114,7 @@ Esta vista muestra información detallada sobre los paquetes enviados por client
 - PESO
 - PRECIO
 
-###Ejemplo de consulta:
+### Ejemplo de consulta:
 ```sql
 SELECT * FROM vista_paquetes_por_cliente;
 ```
