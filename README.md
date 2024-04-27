@@ -1,5 +1,5 @@
 <center>
-<img src="https://i.ibb.co/vHKNzpC/pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1.jpg" alt="pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1"style="max-width: 100%";>
+<img src="[https://i.ibb.co/vHKNzpC/pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1.jpg" alt="pikaso-texttoimage-adorable-cartoon-style-a-van-delivering-a-package-1](https://github.com/Horacio1991/SQL_Coderhouse/blob/main/pikaso_texttoimage_adorable-cartoon-style-a-van-delivering-a-package-%20(2).jpeg?raw=true)"style="max-width: 100%";>
 </center>
 
 
@@ -144,5 +144,5 @@ Se puede generar con un comando en el archivo __make bakcup__ que me permite eje
 
 **Pasos para arrancar el proyecto**
 - En la terminal escribir:
-     - __make_ si te da un error de no conexión al socket, volver a correr el comando __make_
-     - __make access-db para accceder a la base de datos
+     - `make` si te da un error de no conexión al socket, volver a correr el comando __make_
+     - `make` access-db para accceder a la base de datos
