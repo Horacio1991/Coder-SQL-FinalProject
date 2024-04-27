@@ -127,7 +127,7 @@ Este trigger se activa después de actualizar el estado de un paquete y registra
 * env: Archivo con contraseñas y data secretas
 * Makefile: Abstracción de creacción del proyecto
 * docker-compose.yml: Permite generar las bases de datos en forma de contenedores
-* 
+
 ## Back up de la base de datos
 Se puede generar con un comando en el archivo __make bakcup__ que me permite ejecutar un backup de manera manual
 
