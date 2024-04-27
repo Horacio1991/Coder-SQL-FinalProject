@@ -6,7 +6,7 @@
 # <center>Entrega de proyecto final</center>
 @Nombre: Horacio Ortiz
 
-@Comision: 53175
+@ Comision: 53175
 
 @Tutor: Nancy Elizabeth Villena Reines
 
